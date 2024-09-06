@@ -621,13 +621,23 @@ margin-top: 160px;
 @media screen and (max-width:800px) {
   .hero-banner-container{
     height: 560px;
+    p{
+      margin-top: -75px;
+    }
+    
+
+    .below{
+      margin-top: px;
+    }
   }
+ 
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 250px;
+    height: 250px;
+    top: 35%;
+    right: 3%;
   }
+ 
   .footer-banner-container{
     height: 560px;
     margin-top: 80px;
@@ -664,12 +674,15 @@ margin-top: 160px;
   }
   .hero-banner-container h1{
     font-size: 50px;
+    margin-left: 0px;
+    color: #324d67;
   }
  .hero-banner-container h3{
-    font-size: 40px;
+    font-size: 35px;
   }
   .hero-banner-container button{
     margin-top: 90px;
+    margin-left: -20px;
     z-index: 10000;
   }
   .desc{
